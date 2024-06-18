@@ -46,4 +46,4 @@ void times_table(void)
 		number = 0;
 		multiplier++;
 	}
-}}
+}
