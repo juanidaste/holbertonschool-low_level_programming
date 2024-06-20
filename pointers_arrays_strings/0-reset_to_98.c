@@ -1,5 +1,5 @@
 /**
- * update_to_98 - pimba
+ * reset_to_98 - pimba
  * @ptr: input integer
  * Return: No return
  */
