@@ -1,15 +1,21 @@
 #include "main.h"
-
 /**
- * main - check the code
+ * print_rev - check the code
  *
- * Return: Always 0.
+ * @s: s
  */
-int main(void)
+void print_rev(char *s)
 {
-    char *str;
+	int inicial;
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    print_rev(str);
-    return (0);
+	int b;
+
+	for (inicial = 0; s[inicial] != '\0'; inicial++)
+	{
+	}
+	for (b = inicial - 1; b >= 0; b--)
+	{
+		_putchar(s[b]);
+	}
+	_putchar('\n');
 }
