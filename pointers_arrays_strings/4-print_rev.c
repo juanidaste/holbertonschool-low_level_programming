@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-void print_rev(char *s);
+int main(void)
 {
     char *str;
 
