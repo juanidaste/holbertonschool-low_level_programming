@@ -3,7 +3,7 @@
  * _puts_recursion - print a str
  * @s: string
  */
- 
+
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
