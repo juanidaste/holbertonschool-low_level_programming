@@ -3,7 +3,7 @@
  * main - Entry point of the program
  *
  * This program prints a string to the screen and returns 0 to indicate successful execution.
- * 
+ *
  */
 
 int main(void)
