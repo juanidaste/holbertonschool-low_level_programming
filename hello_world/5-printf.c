@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
- * main - jdjadja
+ * main - jdjadjakadkdadkkdakdkad
  *
  * Return: 0
  */
