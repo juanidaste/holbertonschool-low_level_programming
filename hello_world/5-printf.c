@@ -1,6 +1,6 @@
 #include<stdio.h>
-/*
- * main - main kdadkakd
+/**
+ * main - xd
  *
  * Return: 0
  */
