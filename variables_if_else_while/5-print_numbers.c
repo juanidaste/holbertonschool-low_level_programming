@@ -10,6 +10,7 @@ int main(void)
 
 {
 	int luquitas;
+
 	luquitas = 0;
 
 	while (luquitas <= 9)
