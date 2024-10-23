@@ -11,7 +11,7 @@ int main(void)
 {
 	int luquitas = '0';
 
-	while (luquitas <= 9)
+	while (luquitas <= 10)
 
 	{
 		printf("%d", luquitas);
