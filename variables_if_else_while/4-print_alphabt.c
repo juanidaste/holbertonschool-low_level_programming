@@ -7,19 +7,20 @@
  */
 
 int main(void)
-
 {
-char alph = 'a';
+	char alph = 'a';
 
 	while (alph <= 'z')
-
-{
-	if (alph == 'q' | alph == 'e')
-
-		alph++;
-
+    {
 	putchar(alph);
 	alph++;
+	if (alph == 'q' || alph == 'e')
+        {
+	alph++;
+        }
+    }
+
 	putchar('\n');
-}	return (0);
+	return (0);
 }
+
