@@ -13,7 +13,7 @@ int main (void)
 	int num;
 
         alph = 'a';
-	num = '0';
+	num = 0;
 
 	while (num < 10)
 	{
