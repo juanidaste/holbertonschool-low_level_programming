@@ -5,21 +5,22 @@
  * print_alphabet_x10 - Function that prints the alphabet in lowercase 10 times
  * Return: Void
  */
-
 void print_alphabet_x10(void)
-{
-	char str[] = "abcdefghijklmnopqrstuvwxyz";
-	int contador, i;
 
-	for (contador = 0; contador < 10 ; contador++)
 {
-	i = 0;
-	while (str[i] != '\0')
-{
-	_putchar(str[i]);
-	i++;
-}
-	_putchar ('\n');
-}
+char alph = 'a';
+int contador = 0;
 
+	while (contador <10)
+{
+
+	while (alph <= 'z')
+{
+	_putchar(alph);
+	alph++;
+	contador++;
+}
+}
+	_putchar('\n');
+	return (0);
 }
