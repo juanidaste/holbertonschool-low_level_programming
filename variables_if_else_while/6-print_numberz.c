@@ -12,9 +12,10 @@ int main(void)
 
 	unoalnueve = 0;
 
-	while (unoalnueve <= 9)
+	while (unoalnueve <= 10)
 {
 	putchar(unoalnueve + '0');
+	unoalnueve++;
 }
 	putchar('\n');
 	return (0);
