@@ -6,13 +6,13 @@
  * Return: 0
  */
 
-int main (void)
+int main(void)
 
 {
-        char alph;
+	char alph;
 	int num;
 
-        alph = 'a';
+	alph = 'a';
 	num = 0;
 
 	while (num < 10)
@@ -22,11 +22,11 @@ int main (void)
 		num++;
 	}
 
-        while (alph <= 'f')
-        {
-                putchar(alph);
-                alph++;
-        }
-        putchar('\n');
-        return (0);
+	while (alph <= 'f')
+	{
+	putchar(alph);
+	alph++;
+	}
+	putchar('\n');
+	return (0);
 }
