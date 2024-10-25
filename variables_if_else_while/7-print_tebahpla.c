@@ -8,8 +8,8 @@ int main(void)
 
 	while(alphr <= 'a')
 	{
-		putchar(alphr);
-		alphr--;
+	putchar(alphr);
+	alphr--;
 	}
 	putchar('\n');
 	return (0);
