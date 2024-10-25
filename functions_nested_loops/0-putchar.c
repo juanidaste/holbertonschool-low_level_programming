@@ -1,7 +1,12 @@
-#include<stdio.h>
-#include"main.h"
-
+#include "main.h"
+/**
+ * main - This program will assign a random number
+ *
+ *to the variable n each time it is executed.
+ * Return: 0
+ */
 int main(void)
+
 {
 	_putchar('_');
 	_putchar('p');
