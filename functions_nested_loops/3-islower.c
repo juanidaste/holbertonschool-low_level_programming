@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet_x10 - Function that prints the alphabet in lowercase 10 times
- * Return: Void
+ * _islower - Entry point of the program
+ *
+ * _islower - checks if the character is a lowercase letter
+ *
+ * @c: the character to be checkedddd 
+ *
+ * Return: 1 if @c is a lowercase letter, 0 otherwise
+ *
  */
 int _islower(int c)
 {
