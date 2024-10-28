@@ -1,27 +1,29 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * _isalpha - Entry point of the program
+ * print_sign - Entry point of the program
  *
- * _isalpha - checks if the character is a letter
+ * print_sign - checks if the character is a letter
  *
- * @c: the character to be checked
+ * @n: the character to be checked
  *
- * Return: 1 if @c is a letter, lowercase or upper, 0 otherwise
+ * Return: 1 if @n is a +, -1 if @n is -, 0 if @n is 0
  *
  */
-int _isalpha(int c)
+int print_sign(int n)
 {
-	if (c >= 97 && c <= 122)
+	if (n > 0)
 {
+	_putchar('+');
 	return (1);
 }
-	else if (c >= 65 && c <= 90)
+	else if (n < 0)
 {
-	return (1);
+	_putchar('-');
+	return (-1);
 }
 	else
 {
+	_putchar('0');
 	return (0);
 }
 }
