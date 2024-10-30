@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _isdigit - entry of the program
- * @c - ofnwionfwiof
+ * @c: ofnwionfwiof
  * Return: 1 aojfoaj
  */
 int _isdigit(int c)
