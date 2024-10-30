@@ -1,5 +1,9 @@
 #include<stdio.h>
 #include "main.h"
+/**
+ * print_numbers - Entry  point
+ * print_numbers - nfowhfown
+ */
 
 void print_numbers(void)
 {
