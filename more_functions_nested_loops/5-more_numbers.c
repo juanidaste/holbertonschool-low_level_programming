@@ -2,7 +2,9 @@
 #include "main.h"
 
 /**
+ * more_numbers - Entry of the program
  *
+ * more_numbers - Prints numbers
  */
 
 void more_numbers(void)
