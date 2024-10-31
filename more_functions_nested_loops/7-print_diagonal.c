@@ -1,14 +1,26 @@
+#include<stdio.h>
+#include "main.h"
+
+/**
+ * print_diagonal - Entry of the program
+ *
+ * print_diagonal - nfwnfiw
+ **/
+
 void print_diagonal(int n)
 {
+	int i;
+	int j;
+
 	if (n <= 0)
 	{
 		_putchar('\n');
-		return;
+		return; /* TRANQUI BETTY NO RETORNA NADA */
 	}
 
-	for (int i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (int j = 0; j < i; j++)
+		for (j = 0; j < i; j++)
 		{
 			_putchar(' ');
 		}
@@ -16,4 +28,3 @@ void print_diagonal(int n)
 		_putchar('\n');
 	}
 }
-
