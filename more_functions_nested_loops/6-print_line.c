@@ -2,7 +2,11 @@
 #include "main.h"
 
 /**
+ * print_line - Entry of the program
  *
+ * print_line - oaidanufn
+ *
+ * @n: adud2ybeb
  */
 
 void print_line(int n)
@@ -12,6 +16,6 @@ void print_line(int n)
 		_putchar('_');
 		n--;
 	}
-	_putchar('\n'); 
+	_putchar('\n');
 }
 
