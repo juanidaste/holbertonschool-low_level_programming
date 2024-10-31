@@ -3,7 +3,7 @@
 
 /**
  * print_diagonal - Entry of the program
- *
+ * @n: adjuid
  * print_diagonal - nfwnfiw
  **/
 
