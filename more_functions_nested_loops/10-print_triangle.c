@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 /**
-  print_triangle - Entry of the programt
-  print_triangle - sfsfsfs
-  @size: fsfsfsfs
-  */
+ * print_triangle - Entry of the program
+ * print_triangle - Prints triangles
+ * @size: Var to be chcked
+*/
+
 void print_triangle(int size)
 {
 	int x, i, h;
