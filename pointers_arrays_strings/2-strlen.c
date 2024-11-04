@@ -1,5 +1,5 @@
-#include "stdio.h"
-#include <main.h>
+#include <stdio.h>
+#include "main.h"
 
 /**
  * int_strlen - Entry of the program
@@ -12,7 +12,7 @@ int _strlen(char *s)
 
 	len = 0;
 
-	while(s[len != '\n'])
+	while(s[len] != '\0')
 	{
 		len++;
 	}
