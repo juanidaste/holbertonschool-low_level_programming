@@ -17,6 +17,7 @@ unsigned int _strspn(char *s, char *accept)
 	while (*s)
 	{
 		ptr = accept;
+		
 		while (*ptr)
 		{
 			if (*s == *ptr)
@@ -28,8 +29,11 @@ unsigned int _strspn(char *s, char *accept)
 			ptr++;
 		}
 		if (*ptr == '\0')
+		{
 			break;
 		s++;
+		}
+		
 	}
 	return (contador);
 }
