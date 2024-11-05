@@ -13,7 +13,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int contador;
 	char *ptr;
-	
+
 	contador = 0;
 
 	while (*s)
@@ -30,7 +30,7 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		if (*ptr == '\0')
 			break;
-		s++;	
+		s++;
 	}
 	return (contador);
 }
