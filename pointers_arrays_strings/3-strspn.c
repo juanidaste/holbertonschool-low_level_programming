@@ -13,6 +13,8 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int contador;
 	char *ptr;
+	
+	contador = 0;
 
 	while (*s)
 	{
