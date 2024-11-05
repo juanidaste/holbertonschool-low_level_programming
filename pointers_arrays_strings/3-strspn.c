@@ -25,15 +25,12 @@ unsigned int _strspn(char *s, char *accept)
 				contador++;
 				break;
 			}
-
 			ptr++;
 		}
 		if (*ptr == '\0')
-		{
 			break;
 		s++;
-		}
-		
+	
 	}
 	return (contador);
 }
