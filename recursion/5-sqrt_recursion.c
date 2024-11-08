@@ -40,5 +40,5 @@ int _sqrt_helper(int n, int g)
 		return (-1);
 	}
 
-	return (_sqrt_helper(n, guess + 1));
+	return (_sqrt_helper(n, g + 1));
 }
