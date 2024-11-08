@@ -6,30 +6,39 @@
  * _sqrt_recursion - iefeoife}
  * @n: eioejgmioe
  * Return: ijfwpom
+ * @g: dfwfw
  */
 
-int _sqrt_helper(int n, int guess);
+int _sqrt_helper(int n, int g);
 
 int _sqrt_recursion(int n)
 {
-    if (n < 0)
-    {
-        return -1;
-    }
+	if (n < 0)
+	{
+		return (-1);
+	}
 
-    return _sqrt_helper(n, 1);
+	return (_sqrt_helper(n, 1));
 }
 
-int _sqrt_helper(int n, int guess)
-{
-    if (guess * guess == n)
-    {
-        return guess;
-    }
-    if (guess * guess > n)
-    {
-        return -1;
-    }
+/**
+ * _sqrt_helper - Entry of the program
+ * _sqrt_helper - wfferr
+ * @n: fwewfw
+ * @g: fwfwf
+ * Return: cwfew
+ */
 
-    return _sqrt_helper(n, guess + 1);
+int _sqrt_helper(int n, int g)
+{
+	if (g * g == n)
+	{
+		return (g);
+	}
+	if (g * g > n)
+	{
+		return (-1);
+	}
+
+	return (_sqrt_helper(n, guess + 1));
 }
