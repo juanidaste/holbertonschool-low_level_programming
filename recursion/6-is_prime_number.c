@@ -14,10 +14,14 @@ int is_prime_number(int n)
 
 	i = 2;
 
+	if (n < 0)
+	{
+		return (0);
+	}
+
 	if (n % i == 0)
 	{
 		return (0);
 	}
 	return (1);
 }
-
