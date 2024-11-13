@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * create_array - Entry of the program
+ * @size: sdadad
+ * @c: asdadasd
+ * Return: saSsA
+ */
+
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
@@ -21,5 +28,5 @@ char *create_array(unsigned int size, char c)
 		array[i] = c;
 	}
 
-	return array;
+	return (array);
 }
