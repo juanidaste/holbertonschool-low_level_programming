@@ -7,10 +7,9 @@
  * Return: dadad
  */
 
-
 char *_strdup(char *str)
 {
-	int i; 
+	int i;
 	int largo = 0;
 	char *clon;
 
@@ -25,7 +24,7 @@ char *_strdup(char *str)
 			largo += 1;
 		}
 
-		clon = (char *)malloc((largo + 1) *sizeof(char));
+		clon = (char *)malloc((largo + 1) * sizeof(char));
 
 		if (clon == NULL)
 		{
