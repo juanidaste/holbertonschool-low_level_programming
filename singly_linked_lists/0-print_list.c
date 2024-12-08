@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "lists.h"
 
+/**
+ * print_list - Entry of the program
+ * @h: sfsfsfsf
+ * Return: adadada
+ */
+
 size_t print_list(const list_t *h)
 {
 	size_t i = 0;
@@ -20,4 +26,3 @@ size_t print_list(const list_t *h)
 	}
 	return (i);
 }
-
